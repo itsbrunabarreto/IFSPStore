@@ -58,7 +58,7 @@
             txtNome.HideSelection = true;
             txtNome.Hint = "Nome";
             txtNome.LeadingIcon = null;
-            txtNome.Location = new Point(27, 32);
+            txtNome.Location = new Point(142, 21);
             txtNome.MaxLength = 32767;
             txtNome.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
             txtNome.Name = "txtNome";
@@ -71,7 +71,7 @@
             txtNome.SelectionStart = 0;
             txtNome.ShortcutsEnabled = true;
             txtNome.Size = new Size(448, 48);
-            txtNome.TabIndex = 2;
+            txtNome.TabIndex = 1;
             txtNome.TabStop = false;
             txtNome.TextAlign = HorizontalAlignment.Left;
             txtNome.TrailingIcon = null;
@@ -89,7 +89,7 @@
             txtId.HideSelection = true;
             txtId.Hint = "ID";
             txtId.LeadingIcon = null;
-            txtId.Location = new Point(501, 32);
+            txtId.Location = new Point(27, 21);
             txtId.MaxLength = 32767;
             txtId.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
             txtId.Name = "txtId";
@@ -102,7 +102,7 @@
             txtId.SelectionStart = 0;
             txtId.ShortcutsEnabled = true;
             txtId.Size = new Size(96, 48);
-            txtId.TabIndex = 3;
+            txtId.TabIndex = 0;
             txtId.TabStop = false;
             txtId.TextAlign = HorizontalAlignment.Left;
             txtId.TrailingIcon = null;

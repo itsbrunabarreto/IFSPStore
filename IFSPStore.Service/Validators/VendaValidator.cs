@@ -12,10 +12,15 @@ namespace IFSPStore.Service.Validators
     {
         public VendaValidator()
         {
-            RuleFor(v => v.ValorTotal)
-                .NotEmpty().WithMessage("Por Favor informe o valor.")
-                .NotNull().WithMessage("Por Favor informe o valor.");
-
+            RuleFor(c => c.Cliente)
+                .NotEmpty().WithMessage("Por favor informe o cliente.")
+                .NotNull().WithMessage("Por favor informe o cliente.");
+            RuleFor(c => c.Usuario)
+                .NotEmpty().WithMessage("Por favor informe o usuario.")
+                .NotNull().WithMessage("Por favor informe o usuario.");
+            RuleFor(c => c.Items)
+                .NotEmpty().WithMessage("Por favor informe os produtos.")
+                .NotNull().WithMessage("Por favor informe os produtos.");
         }
     }
 

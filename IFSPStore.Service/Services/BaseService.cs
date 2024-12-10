@@ -41,7 +41,7 @@ namespace IFSPStore.Service.Services
 
         public void Delete(int id)
         {
-            _baseRepository.ClearChangeTracker();
+            //_baseRepository.ClearChangeTracker();
             _baseRepository.Delete(id);
         }
 

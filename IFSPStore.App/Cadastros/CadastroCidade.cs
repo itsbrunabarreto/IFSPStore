@@ -53,7 +53,10 @@ namespace IFSPStore.App.Cadastros
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, @"IFSP Store", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                var errorMessage = ex.InnerException != null
+                    ? ex.InnerException.Message
+                    : ex.Message;
+                MessageBox.Show(errorMessage, @"IFSP Store", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -86,5 +89,9 @@ namespace IFSPStore.App.Cadastros
         #endregion
 
 
+        private void txtId_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

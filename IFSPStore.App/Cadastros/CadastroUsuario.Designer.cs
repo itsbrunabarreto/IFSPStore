@@ -89,7 +89,7 @@
             txtNome.SelectionStart = 0;
             txtNome.ShortcutsEnabled = true;
             txtNome.Size = new Size(561, 48);
-            txtNome.TabIndex = 2;
+            txtNome.TabIndex = 0;
             txtNome.TabStop = false;
             txtNome.TextAlign = HorizontalAlignment.Left;
             txtNome.TrailingIcon = null;
@@ -120,7 +120,7 @@
             txtId.SelectionStart = 0;
             txtId.ShortcutsEnabled = true;
             txtId.Size = new Size(90, 48);
-            txtId.TabIndex = 3;
+            txtId.TabIndex = 1;
             txtId.TabStop = false;
             txtId.TextAlign = HorizontalAlignment.Left;
             txtId.TrailingIcon = null;
@@ -151,7 +151,7 @@
             txtLogin.SelectionStart = 0;
             txtLogin.ShortcutsEnabled = true;
             txtLogin.Size = new Size(450, 48);
-            txtLogin.TabIndex = 4;
+            txtLogin.TabIndex = 2;
             txtLogin.TabStop = false;
             txtLogin.TextAlign = HorizontalAlignment.Left;
             txtLogin.TrailingIcon = null;
@@ -173,7 +173,7 @@
             txtSenha.MaxLength = 32767;
             txtSenha.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
             txtSenha.Name = "txtSenha";
-            txtSenha.PasswordChar = '\0';
+            txtSenha.PasswordChar = '*';
             txtSenha.PrefixSuffixText = null;
             txtSenha.ReadOnly = false;
             txtSenha.RightToLeft = RightToLeft.No;
@@ -182,7 +182,7 @@
             txtSenha.SelectionStart = 0;
             txtSenha.ShortcutsEnabled = true;
             txtSenha.Size = new Size(202, 48);
-            txtSenha.TabIndex = 5;
+            txtSenha.TabIndex = 3;
             txtSenha.TabStop = false;
             txtSenha.TextAlign = HorizontalAlignment.Left;
             txtSenha.TrailingIcon = null;
@@ -213,7 +213,7 @@
             txtEmail.SelectionStart = 0;
             txtEmail.ShortcutsEnabled = true;
             txtEmail.Size = new Size(450, 48);
-            txtEmail.TabIndex = 6;
+            txtEmail.TabIndex = 4;
             txtEmail.TabStop = false;
             txtEmail.TextAlign = HorizontalAlignment.Left;
             txtEmail.TrailingIcon = null;
@@ -237,14 +237,14 @@
             txtDataCadastro.Name = "txtDataCadastro";
             txtDataCadastro.PasswordChar = '\0';
             txtDataCadastro.PrefixSuffixText = null;
-            txtDataCadastro.ReadOnly = false;
+            txtDataCadastro.ReadOnly = true;
             txtDataCadastro.RightToLeft = RightToLeft.No;
             txtDataCadastro.SelectedText = "";
             txtDataCadastro.SelectionLength = 0;
             txtDataCadastro.SelectionStart = 0;
             txtDataCadastro.ShortcutsEnabled = true;
             txtDataCadastro.Size = new Size(325, 48);
-            txtDataCadastro.TabIndex = 7;
+            txtDataCadastro.TabIndex = 6;
             txtDataCadastro.TabStop = false;
             txtDataCadastro.TextAlign = HorizontalAlignment.Left;
             txtDataCadastro.TrailingIcon = null;
@@ -268,14 +268,14 @@
             txtDataLogin.Name = "txtDataLogin";
             txtDataLogin.PasswordChar = '\0';
             txtDataLogin.PrefixSuffixText = null;
-            txtDataLogin.ReadOnly = false;
+            txtDataLogin.ReadOnly = true;
             txtDataLogin.RightToLeft = RightToLeft.No;
             txtDataLogin.SelectedText = "";
             txtDataLogin.SelectionLength = 0;
             txtDataLogin.SelectionStart = 0;
             txtDataLogin.ShortcutsEnabled = true;
             txtDataLogin.Size = new Size(324, 48);
-            txtDataLogin.TabIndex = 8;
+            txtDataLogin.TabIndex = 7;
             txtDataLogin.TabStop = false;
             txtDataLogin.TextAlign = HorizontalAlignment.Left;
             txtDataLogin.TrailingIcon = null;
@@ -293,7 +293,7 @@
             chkAtivo.ReadOnly = false;
             chkAtivo.Ripple = true;
             chkAtivo.Size = new Size(129, 37);
-            chkAtivo.TabIndex = 9;
+            chkAtivo.TabIndex = 5;
             chkAtivo.Text = "Usuário Ativo";
             chkAtivo.UseAccentColor = false;
             chkAtivo.UseVisualStyleBackColor = true;

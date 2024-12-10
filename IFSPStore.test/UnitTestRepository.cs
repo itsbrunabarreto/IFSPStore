@@ -173,7 +173,7 @@ namespace IFSPStore.test
                 {
                     Nome = "Luciana Paulina",
                     Cidade = cidade,
-                    Documento = "048.775.904-47",
+                    Documento = "048.785.944-47",
                     Endereco = "Rua Wilson Troncoso, 574",
                     Bairro = "Toselar"
                 };

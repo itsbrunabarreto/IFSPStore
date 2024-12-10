@@ -59,14 +59,19 @@ namespace IFSPStore.App.Cadastros
                 {
                     var usuario = new Usuario();
                     PreencheObjeto(usuario);
+                    usuario.DataLogin = DateTime.Now;
                     _usuarioService.Add<Usuario, Usuario, UsuarioValidator>(usuario);
                 }
                 TabControlCadastro.SelectedIndex = 1;
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, @"IFSP Store", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                var errorMessage = ex.InnerException != null
+                    ? ex.InnerException.Message
+                    : ex.Message;
+                MessageBox.Show(errorMessage, @"IFSP Store", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
         }
 
         protected override void Deletar(int id)

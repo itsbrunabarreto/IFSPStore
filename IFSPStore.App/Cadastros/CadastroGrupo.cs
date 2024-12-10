@@ -48,6 +48,8 @@ namespace IFSPStore.App.Cadastros
                     PreencheObjeto(grupo);
                     grupo = _grupoService.Add<Grupo, Grupo, GrupoValidator>(grupo);
                 }
+                //_grupoService.
+                
                 TabControlCadastro.SelectedIndex = 1;
             }
             catch (Exception ex)

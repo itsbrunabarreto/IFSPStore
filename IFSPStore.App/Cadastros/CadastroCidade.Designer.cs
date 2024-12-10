@@ -110,6 +110,7 @@
             txtId.TextAlign = HorizontalAlignment.Left;
             txtId.TrailingIcon = null;
             txtId.UseSystemPasswordChar = false;
+            txtId.Click += txtId_Click;
             // 
             // cboEstado
             // 

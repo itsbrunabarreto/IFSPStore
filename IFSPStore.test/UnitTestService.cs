@@ -112,7 +112,7 @@ namespace IFSPStore.test
                 Nome = "Bruna",
                 Endereco = "Rua Wilson Troncoso",
                 Bairro = "Residencial Alvorada",
-                Documento = "49235953880",
+                Documento = "49254853880",
                 Cidade = cidade
             };
 

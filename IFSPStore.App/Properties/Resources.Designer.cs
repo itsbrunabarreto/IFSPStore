@@ -83,9 +83,39 @@ namespace IFSPStore.App.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baseline_fingerprint_black_24dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_fingerprint_black_24dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap City {
             get {
                 object obj = ResourceManager.GetObject("City", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap do_utilizador {
+            get {
+                object obj = ResourceManager.GetObject("do-utilizador", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap do_utilizador1 {
+            get {
+                object obj = ResourceManager.GetObject("do-utilizador1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

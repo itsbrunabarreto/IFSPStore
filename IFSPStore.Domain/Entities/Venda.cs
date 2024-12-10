@@ -48,12 +48,12 @@ namespace IFSPStore.Domain.Entities
             
         }
 
-        public int? Quantidade { get; set; }
-        public float? ValorTotal { get; set; }
-        public float? ValorUnitario { get; set; }
         public virtual Produto? Produto { get; set; }
+        public int Quantidade { get; set; }
+        public float ValorUnitario { get; set; }
+        public float ValorTotal { get; set; }
         [JsonIgnore]
-        public Venda? Venda { get; set; }
+        public virtual Venda? Venda { get; set; }
 
     }
 

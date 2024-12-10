@@ -25,14 +25,14 @@ namespace IFSPStore.test
             DateTime dataCadastro = new DateTime(2024, 10, 20);
             DateTime dataLogin = new DateTime(2024, 10, 22);
 
-            Usuario usuario = new Usuario(1, "Bruna", "be2505", "brunabarreto", "brunasantosut@gmail.com", dataCadastro, dataLogin, true );
+            Usuario usuario = new Usuario(1, "Bruna", "be2505", "brunabarreto", "brunasantos@gmail.com", dataCadastro, dataLogin, true );
 
             Debug.WriteLine(JsonSerializer.Serialize(usuario));
 
             Assert.AreEqual(usuario.Nome, "Bruna");
             Assert.AreEqual(usuario.Senha, "be2505");
             Assert.AreEqual(usuario.Login, "brunabarreto");
-            Assert.AreEqual(usuario.Email, "brunasantosut@gmail.com");
+            Assert.AreEqual(usuario.Email, "brunasantos@gmail.com");
             Assert.AreEqual(usuario.DataCadastro, dataCadastro);
             Assert.AreEqual(usuario.DataLogin, dataLogin);
             Assert.IsTrue(usuario.Ativo);

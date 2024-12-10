@@ -83,7 +83,7 @@
             txtNome.SelectionStart = 0;
             txtNome.ShortcutsEnabled = true;
             txtNome.Size = new Size(648, 48);
-            txtNome.TabIndex = 2;
+            txtNome.TabIndex = 0;
             txtNome.TabStop = false;
             txtNome.TextAlign = HorizontalAlignment.Left;
             txtNome.TrailingIcon = null;
@@ -114,7 +114,7 @@
             txtId.SelectionStart = 0;
             txtId.ShortcutsEnabled = true;
             txtId.Size = new Size(69, 48);
-            txtId.TabIndex = 3;
+            txtId.TabIndex = 1;
             txtId.TabStop = false;
             txtId.TextAlign = HorizontalAlignment.Left;
             txtId.TrailingIcon = null;
@@ -145,7 +145,7 @@
             txtUnidadeVenda.SelectionStart = 0;
             txtUnidadeVenda.ShortcutsEnabled = true;
             txtUnidadeVenda.Size = new Size(281, 48);
-            txtUnidadeVenda.TabIndex = 4;
+            txtUnidadeVenda.TabIndex = 3;
             txtUnidadeVenda.TabStop = false;
             txtUnidadeVenda.TextAlign = HorizontalAlignment.Left;
             txtUnidadeVenda.TrailingIcon = null;
@@ -185,7 +185,7 @@
             txtDataCompra.ShortcutsEnabled = true;
             txtDataCompra.Size = new Size(187, 48);
             txtDataCompra.SkipLiterals = true;
-            txtDataCompra.TabIndex = 5;
+            txtDataCompra.TabIndex = 4;
             txtDataCompra.TabStop = false;
             txtDataCompra.Text = "  /  /";
             txtDataCompra.TextAlign = HorizontalAlignment.Left;
@@ -228,7 +228,7 @@
             txtPreco.ShortcutsEnabled = true;
             txtPreco.Size = new Size(219, 48);
             txtPreco.SkipLiterals = true;
-            txtPreco.TabIndex = 6;
+            txtPreco.TabIndex = 2;
             txtPreco.TabStop = false;
             txtPreco.Text = "R$   .   ,";
             txtPreco.TextAlign = HorizontalAlignment.Left;
@@ -258,7 +258,7 @@
             cboGrupo.Name = "cboGrupo";
             cboGrupo.Size = new Size(723, 49);
             cboGrupo.StartIndex = 0;
-            cboGrupo.TabIndex = 7;
+            cboGrupo.TabIndex = 5;
             // 
             // CadastroProduto
             // 

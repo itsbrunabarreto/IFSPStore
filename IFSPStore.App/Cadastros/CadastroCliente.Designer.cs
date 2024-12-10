@@ -83,7 +83,7 @@
             txtNome.SelectionStart = 0;
             txtNome.ShortcutsEnabled = true;
             txtNome.Size = new Size(642, 48);
-            txtNome.TabIndex = 2;
+            txtNome.TabIndex = 1;
             txtNome.TabStop = false;
             txtNome.TextAlign = HorizontalAlignment.Left;
             txtNome.TrailingIcon = null;
@@ -114,7 +114,7 @@
             txtId.SelectionStart = 0;
             txtId.ShortcutsEnabled = true;
             txtId.Size = new Size(93, 48);
-            txtId.TabIndex = 3;
+            txtId.TabIndex = 0;
             txtId.TabStop = false;
             txtId.TextAlign = HorizontalAlignment.Left;
             txtId.TrailingIcon = null;
@@ -145,7 +145,7 @@
             txtEndereco.SelectionStart = 0;
             txtEndereco.ShortcutsEnabled = true;
             txtEndereco.Size = new Size(741, 48);
-            txtEndereco.TabIndex = 4;
+            txtEndereco.TabIndex = 3;
             txtEndereco.TabStop = false;
             txtEndereco.TextAlign = HorizontalAlignment.Left;
             txtEndereco.TrailingIcon = null;
@@ -176,7 +176,7 @@
             txtBairro.SelectionStart = 0;
             txtBairro.ShortcutsEnabled = true;
             txtBairro.Size = new Size(381, 48);
-            txtBairro.TabIndex = 5;
+            txtBairro.TabIndex = 4;
             txtBairro.TabStop = false;
             txtBairro.TextAlign = HorizontalAlignment.Left;
             txtBairro.TrailingIcon = null;
@@ -203,7 +203,7 @@
             cboCidade.Name = "cboCidade";
             cboCidade.Size = new Size(354, 49);
             cboCidade.StartIndex = 0;
-            cboCidade.TabIndex = 6;
+            cboCidade.TabIndex = 5;
             // 
             // txtDocumento
             // 
@@ -230,7 +230,7 @@
             txtDocumento.SelectionStart = 0;
             txtDocumento.ShortcutsEnabled = true;
             txtDocumento.Size = new Size(741, 48);
-            txtDocumento.TabIndex = 7;
+            txtDocumento.TabIndex = 2;
             txtDocumento.TabStop = false;
             txtDocumento.TextAlign = HorizontalAlignment.Left;
             txtDocumento.TrailingIcon = null;
